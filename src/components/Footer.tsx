@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-primary-foreground/40 text-sm">© 2026 DRESSYDREAMS. All rights reserved.</p>
+          <p className="text-primary-foreground/40 text-sm">© 2025 DRESSYDREAMS. All rights reserved.</p>
           <p className="text-primary-foreground/40 text-sm">
             Made with ❤️ in India | #DRESSYDREAMS
           </p>

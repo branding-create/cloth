@@ -24,7 +24,7 @@ export default function BrandIntro() {
             animate={isVisible ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8 }}
           >
-            <p className="text-gold tracking-[0.3em] uppercase text-sm mb-4">Established 2026</p>
+            <p className="text-gold tracking-[0.3em] uppercase text-sm mb-4">Established 2025</p>
             <h2 className="font-heading text-4xl md:text-5xl mb-6 text-foreground">
               Where Comfort
               <br />
@@ -64,7 +64,7 @@ export default function BrandIntro() {
             </div>
             <div className="absolute -bottom-6 -left-6 bg-gold p-6">
               <p className="text-deep-dark font-heading text-2xl">Since</p>
-              <p className="text-deep-dark font-heading text-4xl">2026</p>
+              <p className="text-deep-dark font-heading text-4xl">2025</p>
             </div>
           </motion.div>
         </div>
