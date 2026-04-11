@@ -38,13 +38,13 @@ export default function Index() {
   }, []);
 
   return (
-    <>
+    <div className="relative overflow-x-hidden w-full max-w-[100vw] flex flex-col min-h-screen">
       <LoadingScreen isLoading={isLoading} />
       <CustomCursor />
       <ScrollProgress />
       <Header isDark={isDark} toggleTheme={toggle} />
 
-      <main>
+      <main className="flex-grow w-full max-w-full">
         <HeroSection />
         <SectionDivider />
         <BrandIntro />
@@ -86,6 +86,6 @@ export default function Index() {
       <ChatWidget />
       <WhatsAppButton />
       <BackToTop />
-    </>
+    </div>
   );
 }
