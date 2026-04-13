@@ -43,7 +43,7 @@ function ProductCard({ product, index }: { product: typeof products[0]; index: n
           <img
             src={product.image}
             alt={product.name}
-            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+            className="w-full h-full object-contain object-center group-hover:scale-110 transition-transform duration-700"
             loading="lazy"
             width={800}
             height={1000}
@@ -88,7 +88,7 @@ function ProductCard({ product, index }: { product: typeof products[0]; index: n
             animate={{ scale: 1, opacity: 1 }}
             onClick={(e) => e.stopPropagation()}
           >
-            <img src={product.image} alt={product.name} className="w-full aspect-square object-cover rounded-sm" loading="lazy" />
+            <img src={product.image} alt={product.name} className="w-full aspect-square object-contain object-center rounded-sm" loading="lazy" />
             <div className="flex flex-col justify-center">
               <p className="text-gold text-xs tracking-widest uppercase mb-2">{product.category}</p>
               <h3 className="font-heading text-3xl text-foreground mb-2">{product.name}</h3>
