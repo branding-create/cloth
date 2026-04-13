@@ -3,12 +3,12 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Instagram } from "lucide-react";
 import hoodieImg from "@/assets/product-hoodie-1.jpg";
 import teeImg from "@/assets/product-tee-1.jpg";
-import joggerImg from "@/assets/product-jogger-1.jpg";
+import hoodieImg2 from "@/assets/product-hoodie-2.jpg";
 import heroSecondary from "@/assets/hero-secondary.jpg";
 import fabricImg from "@/assets/fabric-quality.jpg";
 import limitedImg from "@/assets/limited-edition.jpg";
 
-const images = [hoodieImg, teeImg, joggerImg, heroSecondary, fabricImg, limitedImg];
+const images = [hoodieImg, teeImg, hoodieImg2, heroSecondary, fabricImg, limitedImg];
 
 export default function InstagramFeed() {
   const { ref, isVisible } = useScrollAnimation();
