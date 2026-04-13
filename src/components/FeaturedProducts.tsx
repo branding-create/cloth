@@ -4,11 +4,12 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { ShoppingBag, Eye, Heart } from "lucide-react";
 import hoodieImg from "@/assets/product-hoodie-1.jpg";
 import teeImg from "@/assets/product-tee-1.jpg";
+import hoodieImg2 from "@/assets/product-hoodie-2.jpg";
 
 const products = [
   { id: 1, name: "Shadow Hoodie", price: "₹1,499", category: "Hoodies", image: hoodieImg },
   { id: 2, name: "Urban Oversized Tee", price: "₹999", category: "T-Shirts", image: teeImg },
-  { id: 3, name: "Classic Hoodie", price: "₹1,299", category: "Hoodies", image: hoodieImg },
+  { id: 3, name: "Classic Hoodie", price: "₹1,299", category: "Hoodies", image: hoodieImg2 },
 ];
 
 function ProductCard({ product, index }: { product: typeof products[0]; index: number }) {
